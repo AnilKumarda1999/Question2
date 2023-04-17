@@ -1,0 +1,113 @@
+legend{
+    color: green;
+    font-size: x-large;
+}
+em{
+    color: red;
+}
+
+div
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+#fname{
+    margin-left: 100px;
+    padding: 8px;
+}
+#email{
+    margin-left: 125px;
+    padding: 8px;
+}
+#mobile{
+    margin-left: 118px;
+    padding: 8px;
+}
+#male
+{
+    margin-left: 115px;
+}
+#branch{
+    margin-left: 118px;
+    width: 278px;
+}
+#checkbox{
+    margin-left: 96px;
+}
+#lang{
+    margin-left: 50px;
+    width:300px;
+}
+#textarea{
+    margin-left: 55px;
+}
+
+@media screen and (max-width:768px)
+{
+    #fname{
+        margin-left: 50px;
+        padding: 8px;
+    }
+    #email{
+        margin-left: 75px;
+        padding: 8px;
+    }
+    #mobile{
+        margin-left: 70px;
+        padding: 8px;
+    }
+    #male
+    {
+        margin-left: 50px;
+    }
+    #branch{
+        margin-left: 58px;
+        width: 120px;
+    }
+    #checkbox{
+        margin-left: 46px;
+    }
+    #lang{
+        margin-left: 20px;
+        width:100px;
+    }
+    #textarea{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:480px)
+{
+    #fname{
+        margin-left: 50px;
+        padding: 8px;
+    }
+    #email{
+        margin-left: 75px;
+        padding: 8px;
+    }
+    #mobile{
+        margin-left: 70px;
+        padding: 8px;
+    }
+    #male
+    {
+        margin-left: 50px;
+    }
+    #branch{
+        margin-left: 58px;
+        width: 120px;
+    }
+    #checkbox{
+        margin-left: 46px;
+    }
+    #lang{
+        margin-left: 20px;
+        width:100px;
+    }
+    #textarea{
+        margin-left: 20px;
+    }
+}

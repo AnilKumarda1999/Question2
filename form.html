@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    </head>
+    <body>
+        
+    <div>
+        <h1 align="center">NCET Campus Placement</h1>
+        
+        <hr>
+        <form>
+            <fieldset>
+                <legend>Registration Form</legend>
+
+                <label>Full name :  <em>*</em></label>
+                <input type="text" id="fname" name="fname" placeholder="Enter full name" size="33"><br><br>
+                
+                <label>Email :  <em>*</em></label>
+                <input type="email" id="email" name="email" placeholder="Enter valid email" size="33"><br><br>
+               
+                <label>Mobile : <em>*</em></label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter valid mhone mumber" size="33"><br><br>
+                
+                 <labe>Gender : <em>*</em></label> 
+
+                <input type="radio" id="male" name="fav_language" value="Male"> 
+                  <label for="male">Male</label> 
+                  
+                  <input type="radio" id="female" name="fav_language" value="Female">
+                  <label for="female">Female</label><br><br>
+                  
+
+                <label>Branch : <em>*</em></label>
+                <select id="branch" >
+                    <option>select Branch</option>
+                    <option>Computer Science</option>
+                    <option>Electronics</option>
+                </select><br><br>
+
+                <label>Languages : <em>*</em></label>
+                <input type="checkbox" id="checkbox"><label>C / C++</label>
+                <input type="checkbox"><label>Java</label>
+                <input type="checkbox"><label>Web Technologies</label>
+                <input type="checkbox"><label>DBMS</label><br><br>
+
+                
+                <label for="lang">Spoken Language : <em>*</em></label>
+
+               <select name="lang" id="lang" multiple>
+                  <option value="kannada">Kannada</option>
+                  <option value="english">English</option>
+                  <option value="telugu">Telugu</option>
+                  <option value="hindi">Hindi</option>
+              </select><br><br>
+
+              <label for="info">Self Introduction : <em>*</em></label>
+              <textarea name="message" rows="5" cols="35" placeholder="Please give brief Introduction about your achievements"
+                          id="textarea"></textarea>
+
+            </fieldset>
+        </form>
+        </div>
+    </body>
+</html>
